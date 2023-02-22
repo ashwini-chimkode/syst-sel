@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium-Test-cases]" verbose="0">
+  <test name="testCaculate(failed)">
+    <classes>
+      <class name="CalculatorTestSuccessful">
+        <methods>
+          <include name="initCalculator"/>
+          <include name="testSubstraction"/>
+          <include name="afterEachTest"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- CalculatorTestSuccessful -->
+    </classes>
+  </test> <!-- testCaculate(failed) -->
+</suite> <!-- Failed suite [Selenium-Test-cases] -->
